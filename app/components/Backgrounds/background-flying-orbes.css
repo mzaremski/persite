@@ -1,0 +1,225 @@
+@keyframes move {
+  100% {
+    transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+
+#background-flying-orbes {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#background-flying-orbes span {
+  width: 50vmin;
+  height: 50vmin;
+  border-radius: 41vmin;
+  backface-visibility: hidden;
+  position: absolute;
+  animation: move;
+  animation-duration: 19;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+#background-flying-orbes span:nth-child(0) {
+  color: var(--accent-7);
+  top: 36%;
+  left: 71%;
+  animation-duration: 259s;
+  animation-delay: -77s;
+  transform-origin: 23vw 0vh;
+  box-shadow: 82vmin 0 11.029506956055135vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(1) {
+  color: var(--accent-3);
+  top: 63%;
+  left: 91%;
+  animation-duration: 219s;
+  animation-delay: -6s;
+  transform-origin: -12vw -12vh;
+  box-shadow: -82vmin 0 10.67199068423814vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(2) {
+  color: var(--accent-8);
+  top: 14%;
+  left: 58%;
+  animation-duration: 90s;
+  animation-delay: -150s;
+  transform-origin: -5vw -20vh;
+  box-shadow: -82vmin 0 10.285606913498164vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(3) {
+  color: var(--accent-5);
+  top: 51%;
+  left: 61%;
+  animation-duration: 180s;
+  animation-delay: -44s;
+  transform-origin: -19vw 25vh;
+  box-shadow: 82vmin 0 10.407525158117279vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(4) {
+  color: var(--accent-6);
+  top: 33%;
+  left: 35%;
+  animation-duration: 105s;
+  animation-delay: -104s;
+  transform-origin: 9vw 5vh;
+  box-shadow: -82vmin 0 10.503583250053824vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(5) {
+  color: var(--accent-4);
+  top: 26%;
+  left: 98%;
+  animation-duration: 94s;
+  animation-delay: -208s;
+  transform-origin: -22vw -4vh;
+  box-shadow: 82vmin 0 10.362584408662588vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(6) {
+  color: var(--accent-9);
+  top: 58%;
+  left: 62%;
+  animation-duration: 203s;
+  animation-delay: -215s;
+  transform-origin: -11vw 1vh;
+  box-shadow: 82vmin 0 10.380261646131306vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(7) {
+  color: var(--accent-2);
+  top: 79%;
+  left: 28%;
+  animation-duration: 144s;
+  animation-delay: -307s;
+  transform-origin: 21vw 10vh;
+  box-shadow: 82vmin 0 10.731736914834185vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(8) {
+  color: var(--accent-7);
+  top: 79%;
+  left: 19%;
+  animation-duration: 258s;
+  animation-delay: -131s;
+  transform-origin: 14vw 15vh;
+  box-shadow: -82vmin 0 10.973949042129869vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(9) {
+  color: var(--accent-1);
+  top: 28%;
+  left: 48%;
+  animation-duration: 78s;
+  animation-delay: -32s;
+  transform-origin: 2vw 18vh;
+  box-shadow: -82vmin 0 10.415186104755586vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(10) {
+  color: var(--accent-8);
+  top: 95%;
+  left: 3%;
+  animation-duration: 273s;
+  animation-delay: -193s;
+  transform-origin: -7vw 15vh;
+  box-shadow: 82vmin 0 11.243214777792408vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(11) {
+  color: var(--accent-4);
+  top: 31%;
+  left: 76%;
+  animation-duration: 104s;
+  animation-delay: -308s;
+  transform-origin: 18vw -23vh;
+  box-shadow: 82vmin 0 10.962517307994196vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(12) {
+  color: var(--accent-6);
+  top: 56%;
+  left: 49%;
+  animation-duration: 221s;
+  animation-delay: -96s;
+  transform-origin: 18vw -1vh;
+  box-shadow: -82vmin 0 10.678990102263128vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(13) {
+  color: var(--accent-3);
+  top: 44%;
+  left: 38%;
+  animation-duration: 306s;
+  animation-delay: -114s;
+  transform-origin: -15vw -2vh;
+  box-shadow: 82vmin 0 10.758027643740869vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(14) {
+  color: var(--accent-9);
+  top: 3%;
+  left: 70%;
+  animation-duration: 77s;
+  animation-delay: -242s;
+  transform-origin: -5vw -8vh;
+  box-shadow: 82vmin 0 10.644421021297577vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(15) {
+  color: var(--accent-5);
+  top: 55%;
+  left: 6%;
+  animation-duration: 121s;
+  animation-delay: -230s;
+  transform-origin: -2vw -16vh;
+  box-shadow: 82vmin 0 10.294458548094664vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(16) {
+  color: var(--accent-2);
+  top: 89%;
+  left: 84%;
+  animation-duration: 57s;
+  animation-delay: -46s;
+  transform-origin: -17vw 22vh;
+  box-shadow: 82vmin 0 11.078790434202993vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(17) {
+  color: var(--accent-7);
+  top: 89%;
+  left: 84%;
+  animation-duration: 57s;
+  animation-delay: -46s;
+  transform-origin: -17vw 22vh;
+  box-shadow: 82vmin 0 10.973949042129869vmin currentColor;
+}
+
+#background-flying-orbes span:nth-child(18) {
+  color: var(--accent-4);
+  top: 89%;
+  left: 84%;
+  animation-duration: 57s;
+  animation-delay: -46s;
+  transform-origin: -17vw 22vh;
+  box-shadow: 82vmin 0 11.243214777792408vmin currentColor;
+}
+
+/* 
+  Use only:
+  var(--accent-6);
+  var(--accent-7);
+  var(--accent-8);
+*/
